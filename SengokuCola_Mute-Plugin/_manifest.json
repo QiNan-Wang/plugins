@@ -1,0 +1,32 @@
+{
+  "manifest_version": 1,
+  "name": "群聊禁言管理插件 (Mute Plugin)",
+  "version": "4.2.0",
+  "description": "群聊禁言管理插件，提供智能禁言功能",
+  "author": {
+    "name": "SengokuCola",
+    "url": "https://github.com/SengokuCola"
+  },
+  "license": "MIT",
+  "host_application": {
+    "min_version": "0.10.3"
+  },
+  "homepage_url": "https://github.com/SengokuCola",
+  "repository_url": "https://github.com/SengokuCola/MutePlugin",
+  "keywords": [
+    "mute",
+    "ban",
+    "moderation",
+    "admin",
+    "management",
+    "group"
+  ],
+  "categories": [
+    "Moderation",
+    "Group Management",
+    "Admin Tools"
+  ],
+  "default_locale": "zh-CN",
+  "locales_path": "_locales",
+  "id": "SengokuCola.Mute-Plugin"
+}

@@ -1,0 +1,54 @@
+# =====================================================
+# 娱乐插件配置文件
+# Entertainment Plugin Configuration
+# =====================================================
+
+# ============ 插件基本配置 ============
+[plugin]
+enabled = true
+name = "entertainment_plugin"
+version = "1.0.0"
+
+[modules]
+image_enabled = true
+news_enabled = true
+music_enabled = true
+ai_draw_enabled = true
+
+[image]
+api_url = "https://www.onexiaolaji.cn/RandomPicture/api/"
+api_key = "qq249663924"
+available_classes = [
+    101,
+    102,
+    103,
+    104,
+]
+
+[news]
+api_url = "https://60api.09cdn.xyz/v2/60s"
+history_api_url = "https://60api.09cdn.xyz/v2/today-in-history"
+send_image = false
+send_text = true
+max_history_events = 10
+
+[music]
+api_url = "https://api.vkeys.cn"
+vip_api_url = "https://www.littleyouzi.com/api/v2"
+juhe_api_url = "https://api.xcvts.cn/api/music/juhe"
+default_source = "netease"
+timeout = 30
+max_search_results = 10
+show_cover = false
+show_info_text = false
+send_as_voice = false
+enable_quick_choose = true
+quick_choose_timeout = 60
+
+[ai_draw]
+api_url = "https://api.xingzhige.com/API/DrawOne/"
+default_prompt = "jk"
+timeout = 30
+selection_mode = "best"
+self_prompt = "猫娘 猫耳 白发 日系二次元 插画风格 少女 可爱 萌"
+auto_image_enabled = true
